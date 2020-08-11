@@ -1,0 +1,19 @@
+/**
+ * The author of the file is Yaswanth Chiruvella - B00849892.
+ */
+.covid19positive{
+  font-weight: 600;
+  color:white;
+  background: red
+}
+.covid19negative{
+  font-weight: 600;
+  background: lightgreen
+}
+
+.heading {
+  padding: 50px 30px 50px 30px;
+  margin: 0px auto;
+  background: #9575cd;
+  text-align: center;
+}
