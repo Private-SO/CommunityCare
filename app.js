@@ -12,7 +12,7 @@ const path = require('path');
 app.use(cookieparser());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://user123:user123@cluster0.jfkas.mongodb.net/test', { useNewUrlParser: true, useUnifiedTopology: true },()=>{
+mongoose.connect('mongodb+srv://abc:abc@cluster0.jfkas.mongodb.net/test', { useNewUrlParser: true, useUnifiedTopology: true },()=>{
     console.log("connected succesfully to MongoDB");
 });
 
